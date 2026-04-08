@@ -65,4 +65,4 @@ def analyze_lottery_periodicity(file_path, sheet_name, column_name):
 
 analyze_lottery_periodicity('C:\\Users\\idowe\\MyProjects\\Lottery-estimation\\Lotto.xlsx', 
                             sheet_name='Time domain - the strong number', 
-                            column_name='ball 6')
+                            column_name='ball 1')
