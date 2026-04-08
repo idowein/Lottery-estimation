@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fft import fft, fftfreq
 
-def analyze_lottery_periodicity(file_path, sheet_name='Time domain 1-6 numbers', column_name='ball 36'):
+def analyze_lottery_periodicity(file_path, sheet_name, column_name):
     # Load specific sheet from Excel file
     try:
         df = pd.read_excel(file_path, sheet_name=sheet_name)
