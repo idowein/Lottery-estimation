@@ -64,5 +64,5 @@ def analyze_lottery_periodicity(file_path, sheet_name, column_name):
         print(f"Freq: {frequencies[idx]:.4f} | Every {period:.2f} draws | Strength: {magnitudes[idx]:.2f}")
 
 analyze_lottery_periodicity('C:\\Users\\idowe\\MyProjects\\Lottery-estimation\\Lotto.xlsx', 
-                            sheet_name='Time domain - the strong number', 
-                            column_name='ball 1')
+                            sheet_name='Time domain - special number', 
+                            column_name=7)
